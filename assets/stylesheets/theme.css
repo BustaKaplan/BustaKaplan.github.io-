@@ -15,7 +15,12 @@ body {
   display: flex;
   padding: 15px;
 }
-
+.tofu-and-ellie{
+  width:40%;
+  padding-top:20px;
+  padding-right:20px;
+  float:right;
+}
 p {
   margin: 0 15px;
 }
