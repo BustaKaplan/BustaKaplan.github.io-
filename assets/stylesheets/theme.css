@@ -1,25 +1,81 @@
 body {
-  background-color: #eeeeee;
-  color: #030303;
+  background-color:white;
+  color: #001f3f;
   margin: 0;
   padding: 0;
 }
 
 .header {
   padding: 15px;
+  text-align: center;
+  color: #001f3f;
+  background-color: #dddddd;
 }
-
+p{
+  width: 60%;
+  margin: auto;
+}
+.grey{
+  background-color: #dddddd;
+  width: 100%;
+  padding-bottom: 5%;
+}
 .content {
-  background-color: #030303;
-  color: #eeeeee;
-  display: flex;
-  padding: 15px;
+  background-color: #dddddd;
+  color: #001f3f;
+  text-align: center;
+  margin: auto;
+}
+.pics{
+  background-color: #dddddd;
 }
 .tofu-and-ellie{
-  width:300px;
-  padding-top:20px;
-  padding-right:20px;
-  float:right;
+  border-radius: 50%;
+  width: 10em;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+.circle{
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+.box{
+  background-color:  #001f3f;;
+  border-radius: 15px;
+  color: white;
+  height: 3em;
+  width: 15%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 1em;
+  margin: 7.5%;
+}
+.bio{
+  background-color: #FF851B;
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  height: 1.5em;
+}
+.elements{
+  background-color: white;
+  }
+  .element{
+  background-color: #aaaaaa;
+  text-align: center;
+  margin: auto;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  border-width: 1%;
+  color: white;
+  display: inline-flex;
+  height: 10em;
+  width:30%;
+  padding: none;
 }
 p {
   margin: 0 15px;
