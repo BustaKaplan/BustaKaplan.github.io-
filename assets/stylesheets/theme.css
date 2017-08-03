@@ -1,16 +1,36 @@
 body {
-  background-color:white;
+  background-color:#dddddd;
   color: #001f3f;
   margin: 0;
   padding: 0;
 }
 
-.header {
+header {
   padding: 15px;
   text-align: center;
   color: #001f3f;
   background-color: #dddddd;
 }
+.menu{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 70%;
+  padding-bottom: 2.5em;
+  padding-left:5%;
+  padding-right: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid  #001f3f;
+
+}
+a{
+  color: #001f3f;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 p{
   width: 60%;
   margin: auto;
@@ -21,6 +41,8 @@ p{
   padding-bottom: 5%;
 }
 .content {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 2.5em;
   background-color: #dddddd;
   color: #001f3f;
   text-align: center;
@@ -79,4 +101,7 @@ p{
 }
 p {
   margin: 0 15px;
+}
+.blue{
+  color: orange;
 }
