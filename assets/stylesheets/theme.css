@@ -30,6 +30,9 @@ a{
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
 }
+.selected{
+  color: orange;
+}
 
 p{
   width: 60%;
@@ -76,6 +79,8 @@ p{
   margin: 7.5%;
 }
 .bio{
+  margin-top: 1em;
+  margin-bottom: 1em;
   background-color: #FF851B;
   color: white;
   text-align: center;
@@ -83,8 +88,10 @@ p{
   height: 1.5em;
 }
 .elements{
-  background-color: white;
-  }
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
   .element{
   background-color: #aaaaaa;
   text-align: center;
@@ -98,10 +105,28 @@ p{
   height: 10em;
   width:30%;
   padding: none;
+  margin-top: .25em;
+  margin-bottom: .25em;
 }
 p {
   margin: 0 15px;
 }
 .blue{
   color: orange;
+}
+.contact{
+  text-align: center;
+  padding-top: 1.5em;
+}
+.sunflower{
+  background-color: #ffce54;
+}
+.mint{
+  background-color: #48cfad;
+}
+.grapefruit{
+  background-color: #fe6e51;
+}
+.lavander{
+  background-color: #ac92ec;
 }
