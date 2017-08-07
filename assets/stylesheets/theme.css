@@ -53,6 +53,8 @@ p{
 }
 .pics{
   background-color: #dddddd;
+  justify-content: space-around;
+
 }
 .tofu-and-ellie{
   border-radius: 50%;
@@ -64,8 +66,8 @@ p{
   border-radius: 50%;
   width: 10em;
   height: 10em;
-  margin-left: 9%;
-  margin-right: 9%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .box{
   background-color:  #001f3f;;
@@ -73,10 +75,13 @@ p{
   color: white;
   height: 3em;
   width: 15%;
-  display: inline-block;
+  display: inline-flex;
+  width: 10em;
+  margin-left: 9%;
+  margin-right: 10%;
   text-align: center;
   padding-top: 1em;
-  margin: 7.5%;
+  margin-top: 7.5%;
 }
 .bio{
   margin-top: 1em;
@@ -91,6 +96,7 @@ p{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 1em;
 }
   .element{
   background-color: #aaaaaa;
@@ -107,6 +113,10 @@ p{
   padding: none;
   margin-top: .25em;
   margin-bottom: .25em;
+}
+element{
+  display: inline;
+  text-align: center;
 }
 p {
   margin: 0 15px;
