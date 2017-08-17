@@ -6,6 +6,14 @@ body {
   margin: 0;
   padding: 0;
 }
+a:hover {
+    color: orange !important;
+    text-decoration: none  !important;
+}
+a:visited {
+  text-decoration: none;
+  color:#001f3f;
+}
 
 #badges {
   text-align: center;
