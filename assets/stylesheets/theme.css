@@ -11,7 +11,7 @@ header {
   color: #001f3f;
   background-color: #dddddd;
 }
-.menu{
+.menu {
   font-family: 'Source Sans Pro', sans-serif;
   margin-right: 10%;
   margin-left: 10%;
@@ -27,7 +27,7 @@ header {
 }
 a{
   color: #001f3f;
-  text-decoration: none;
+  text-decoration: none !important;
   font-family: 'Source Sans Pro', sans-serif;
 }
 .selected{
