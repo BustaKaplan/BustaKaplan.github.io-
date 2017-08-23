@@ -159,3 +159,8 @@ p {
 .fadetext:hover {
     opacity:1;
 }
+.progress{
+  padding-top: 2rem;
+  width: 100%;
+  text-align: center;
+}
